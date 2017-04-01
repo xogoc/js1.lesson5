@@ -51,7 +51,7 @@ var black = {
     ]
 };
 
-function board() {
+function board(parent) {
     var tr, td, i, j, dark;
     var table = document.createElement("table");
     var index = {
@@ -81,7 +81,7 @@ function board() {
         }
         table.appendChild(tr);
     }
-    document.body.appendChild(table);
+    parent.appendChild(table);
 }
 function render(player) {
     for (piece in player) {
@@ -93,7 +93,7 @@ function render(player) {
     }
 }
 
-board();
+board(document.body);
 render(white);
 render(black);
 
