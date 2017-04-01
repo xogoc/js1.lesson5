@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+.frame {
+    background-color: #6f512f;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #fff;
+}
+.frame,
+.check {
+    text-align: center;
+    vertical-align: middle;
+}
+.corner {
+    height: 25px;
+    width: 25px;
+}
+.horizontal {
+    height: 25px;
+    width: 64px;
+}
+.vertical {
+    height: 64px;
+    width: 25px;
+}
+.check {
+    height: 64px;
+    width: 64px;
+    font-size: 47px;
+}
+.light {
+    background-color: #e3cd91;
+}
+.dark {
+    background-color: #a37e49;
+}
